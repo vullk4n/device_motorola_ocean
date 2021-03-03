@@ -1,0 +1,33 @@
+[
+  {
+    "remote": "hub-devices",
+    "repository": "device_motorola_sdm632-common",
+    "target_path": "device/motorola/sdm632-common",
+    "branch": "eleven"
+  },
+  {
+    "remote": "hub-devices",
+    "repository": "kernel_motorola_sdm632",
+    "target_path": "kernel/motorola/sdm632",
+    "branch": "eleven"
+  },
+  {
+    "remote": "lab-devices",
+    "repository": "vendor_motorola_ocean",
+    "target_path": "vendor/motorola/ocean",
+    "branch": "eleven"
+  },
+  {
+    "remote": "lab-devices",
+    "repository": "vendor_motorola_sdm632-common",
+    "target_path": "vendor/motorola/sdm632-common",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_motorola",
+    "target_path": "hardware/motorola",
+    "branch": "lineage-18.1"
+  }
+]
+
