@@ -23,7 +23,7 @@ $(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aospk
+    $(LOCAL_PATH)/overlay-kraken
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
