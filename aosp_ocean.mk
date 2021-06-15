@@ -23,6 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 CUSTOM_BUILD_TYPE := OFFICIAL
 CUSTOM_MAINTAINER := vulkan
+TARGET_ENABLE_ADB := true
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
