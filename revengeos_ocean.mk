@@ -19,11 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Kraken stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-CUSTOM_BUILD_TYPE := OFFICIAL
-CUSTOM_MAINTAINER := vulkan
-TARGET_ENABLE_ADB := true
+# Inherit some common revengeOS stuff
+$(call inherit-product, vendor/revengeos/config/common.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -35,9 +34,12 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := aosp_ocean
+PRODUCT_NAME := revengeos_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=ocean \
         PRIVATE_BUILD_DESC="ocean-user 9 PPO29.114-134 fee207 release-keys"
+
+# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
+BUILD_FINGERPRINT := motorola/ocean/ocean:9/PPO29.114-134/fee207:user/release-keys
