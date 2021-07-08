@@ -34,8 +34,4 @@
         M -130,0 L -130,53 L 130,53 L 130,0 Z
     </string>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">53.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
-
 </resources>
