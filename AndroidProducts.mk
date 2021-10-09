@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ocean.mk
+    $(LOCAL_DIR)/lineage_ocean.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ocean-eng \
-    revengeos_ocean-user \
-    revengeos_ocean-userdebug
+    lineage_ocean-eng \
+    lineage_ocean-user \
+    lineage_ocean-userdebug
