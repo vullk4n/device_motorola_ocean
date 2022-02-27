@@ -22,6 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common derp stuff
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
+DERP_BUILDTYPE := Official
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
