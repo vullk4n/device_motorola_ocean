@@ -41,5 +41,5 @@ PRODUCT_NAME := derp_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=ocean \
+        TARGET_PRODUCT=ocean \
         PRIVATE_BUILD_DESC="ocean-user 9 PPO29.114-134 fee207 release-keys"
