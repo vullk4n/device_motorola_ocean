@@ -36,5 +36,5 @@ PRODUCT_NAME := lineage_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        TARGET_PRODUCT=ocean \
+        PRODUCT_NAME=ocean \
         PRIVATE_BUILD_DESC="ocean-user 9 PPO29.114-134 fee207 release-keys"
