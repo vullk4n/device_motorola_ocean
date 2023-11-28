@@ -298,4 +298,3 @@ vendor/firmware/tfa98xx.cnt
 # Misc Firmware
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
-
