@@ -2,36 +2,36 @@
   {
     "repository":"crdroidandroid/android_device_motorola_sdm632-common",
     "target_path":"device/motorola/sdm632-common",
-    "branch":"13.0"
+    "branch":"14.0"
   },
   {
     "repository":"crdroidandroid/android_kernel_motorola_sdm632",
     "target_path":"kernel/motorola/sdm632",
-    "branch":"13.0"
+    "branch":"14.0"
   },
   {
     "repository":"crdroidandroid/proprietary_vendor_motorola_ocean",
     "target_path":"vendor/motorola/ocean",
-    "branch":"13.0"
+    "branch":"14.0"
   },
   {
     "repository":"crdroidandroid/proprietary_vendor_motorola_sdm632-common",
     "target_path":"vendor/motorola/sdm632-common",
-    "branch":"13.0"
+    "branch":"14.0"
   },
   {
     "repository":"LineageOS/android_hardware_motorola",
     "target_path":"hardware/motorola",
-    "branch":"lineage-20"
+    "branch":"lineage-21"
   },
   {
     "repository":"LineageOS/android_external_bson",
     "target_path":"external/bson",
-    "branch":"lineage-20"
+    "branch":"lineage-21"
   },
   {
     "repository":"LineageOS/android_system_qcom",
     "target_path":"system/qcom",
-    "branch":"lineage-20"
+    "branch":"lineage-21"
   }
 ]
